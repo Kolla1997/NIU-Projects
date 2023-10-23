@@ -1,0 +1,112 @@
+package main.threat;
+
+import java.awt.Point;
+import java.util.List;
+import java.util.Random;
+
+import javafx.application.Platform;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
+import javafx.scene.layout.Pane;
+import main.OceanMap;
+
+/**
+ * This class represents a Kraken monster.
+ * 
+ * @author player1
+ *
+ */
+public class Kraken implements Threat, Runnable {
+
+	private OceanMap oceanMap;
+	private Random random = new Random();
+	private boolean isRunning;
+
+	private Point krakenLocation;
+	private Image krakenImage;
+	private ImageView krakenImageView;
+	private int x1, y1, x2, y2;
+
+	/**
+	 * Default constructor to initialize kraken image.
+	 */
+	public Kraken() {
+		isRunning = true;
+		oceanMap = OceanMap.getGrid();
+		krakenImage = new Image("kraken.png", SCALING_FACTOR, SCALING_FACTOR, true, true);
+		krakenImageView = new ImageView(krakenImage);
+	}
+
+	@Override
+	public void setBoundary(int x1, int y1, int x2, int y2) {
+		this.x1 = x1;
+		this.y1 = y1;
+		this.x2 = x2;
+		this.y2 = y2;
+		this.krakenLocation = new Point(x1, y1);
+		this.move();
+	}
+
+	@Override
+	public Point getThreatLocation() {
+		return krakenLocation;
+	}
+
+	@Override
+	public void move() {
+		int x = krakenLocation.x + random.nextInt(3) - 1;
+		if (x >= x1 && x <= x2 && oceanMap.isOcean(x, krakenLocation.y)) {
+			krakenLocation.x = x;
+		}
+		int y = krakenLocation.y + random.nextInt(3) - 1;
+		if (y >= y1 && y <= y2 && oceanMap.isOcean(krakenLocation.x, y)) {
+			krakenLocation.y = y;
+		}
+		draw();
+	}
+
+	@Override
+	public void run() {
+		while (isRunning) {
+			try {
+				move();
+				Thread.sleep(500);
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+		}
+	}
+
+	@Override
+	public void addToOcean(Pane ocean) {
+		ocean.getChildren().add(krakenImageView);
+	}
+
+	@Override
+	public void draw() {
+		/*
+		 * For updating JavaFX controls from Java thread, use JavaFX thread by
+		 * Platform.runLater()
+		 */
+		Platform.runLater(() -> {
+			krakenImageView.setX(krakenLocation.x * SCALING_FACTOR);
+			krakenImageView.setY(krakenLocation.y * SCALING_FACTOR);
+		});
+	}
+
+	@Override
+	public void add(Threat threat) {
+		System.err.println("The add() not available for leaf node");
+	}
+
+	@Override
+	public void remove(Threat threat) {
+		System.err.println("The remove() not available for leaf node");
+	}
+
+	@Override
+	public List<Threat> list() {
+		System.err.println("The list() not available for leaf node");
+		return null;
+	}
+}
