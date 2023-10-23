@@ -1,0 +1,210 @@
+Table name is: movie-matrix2.ser
+
+*** No. of movie names = 1682
+
+Rows 1682, columns 943
+Movie number: xyz
+Invalid entry, try again
+
+Movie number: qu
+Invalid entry, try again
+
+Movie number: 0
+Movie number must be between 1 and 1682
+
+Movie number: -3
+Movie number must be between 1 and 1682
+
+Movie number: 9999
+Movie number must be between 1 and 1682
+
+Movie number: Movie: 1  Toy Story (1995)
+
+Common reviewers for movie 1:
+  1   2   5   6  10  13  15  16  17  18 
+ 20  21  23  25  26  38  41  42  43  44 
+ 45  49  54  56  57  58  59  62  63  64 
+ 65  66  67  70  72  73  75  77  79  81 
+ 82  83  84  89  92  93  94  95  96  97 
+ 99 101 102 106 108 109 117 120 121 124 
+125 128 130 131 134 137 138 141 144 145 
+148 150 151 157 158 160 162 168 174 177 
+178 181 182 184 189 193 194 198 199 200 
+201 202 203 204 209 210 213 216 222 223 
+230 231 232 234 235 242 243 244 246 247 
+248 249 250 251 252 253 254 256 262 263 
+265 268 271 274 275 276 277 279 280 286 
+287 289 290 291 292 293 294 295 296 297 
+298 299 301 303 305 307 308 311 312 313 
+314 320 322 324 325 326 327 330 331 332 
+336 338 339 340 343 344 345 347 348 350 
+357 359 360 363 365 371 374 378 379 380 
+381 387 388 389 390 393 394 395 396 398 
+399 401 402 403 406 407 411 412 416 417 
+419 422 424 425 429 432 434 435 438 441 
+445 447 450 454 455 456 457 458 459 460 
+463 465 467 468 470 471 472 478 479 483 
+484 486 487 488 490 493 494 495 497 500 
+503 505 508 512 514 517 518 521 523 525 
+526 532 533 534 535 536 537 540 541 542 
+545 548 549 550 552 553 554 560 561 562 
+567 569 576 577 579 580 582 588 592 593 
+597 599 602 605 606 609 610 612 613 614 
+618 620 621 622 624 630 632 634 635 636 
+637 642 643 648 649 650 653 654 655 657 
+658 660 661 663 664 665 669 674 676 677 
+678 679 680 682 684 689 690 691 692 697 
+698 699 701 703 705 706 708 709 710 714 
+715 716 721 723 726 727 730 731 733 735 
+738 742 744 745 746 747 748 749 751 756 
+757 759 761 763 764 767 768 769 770 771 
+773 777 779 785 786 788 789 790 792 793 
+794 795 796 798 800 804 805 806 807 815 
+817 821 822 823 826 829 830 831 835 838 
+839 843 847 852 854 864 865 867 868 870 
+872 879 880 881 882 883 885 886 887 889 
+890 892 893 894 895 896 897 899 901 902 
+903 907 910 913 916 917 918 919 921 922 
+923 924 927 929 930 932 933 934 935 936 
+938 941 
+
+Movie 1, comparison movie 1 (Toy Story (1995)), common reviewers 452
+compare movie is Toy Story (1995)
+no. of common reviewers 452
+target avg    compare avg  target std   compare std    r
+  3.878319      3.878319     0.927897      0.927897    1.000000
+
+Common reviewers for movie 2:
+  1   5  13  42  49  64  72  83  92  95 
+102 130 178 193 200 201 213 222 234 249 
+250 256 268 271 276 279 280 292 293 301 
+303 305 320 325 327 363 374 378 379 387 
+393 398 399 407 416 425 429 435 450 455 
+472 484 487 495 497 521 532 536 561 618 
+621 622 632 642 643 648 650 653 655 660 
+682 705 709 715 727 738 746 749 751 757 
+764 773 790 795 796 798 804 806 807 815 
+826 830 864 868 870 880 886 889 892 896 
+899 916 924 934 
+
+Movie 1, comparison movie 2 (GoldenEye (1995)), common reviewers 104
+compare movie is GoldenEye (1995)
+no. of common reviewers 104
+target avg    compare avg  target std   compare std    r
+  3.865385      3.201923     0.945687      0.917783    0.221784
+
+Movie 1, comparison movie 3 (Four Rooms (1995)), common reviewers 78
+compare movie is Four Rooms (1995)
+no. of common reviewers 78
+target avg    compare avg  target std   compare std    r
+  3.717949      2.935897     0.952065      1.209698    0.175794
+
+Movie 1, comparison movie 4 (Get Shorty (1995)), common reviewers 149
+compare movie is Get Shorty (1995)
+no. of common reviewers 149
+target avg    compare avg  target std   compare std    r
+  3.872483      3.530201     0.924798      0.997003    0.103135
+
+Movie 1, comparison movie 5 (Copycat (1995)), common reviewers 57
+compare movie is Copycat (1995)
+no. of common reviewers 57
+target avg    compare avg  target std   compare std    r
+  3.929825      3.368421     0.979425      0.918687    0.386475
+
+Movie 1, comparison movie 6 (Shanghai Triad (Yao a yao yao dao waipo qiao) (1995)), common reviewers 14
+compare movie is Shanghai Triad (Yao a yao yao dao waipo qiao) (1995)
+no. of common reviewers 14
+target avg    compare avg  target std   compare std    r
+  3.785714      3.428571     1.050902      1.283881    0.529401
+
+Movie 1, comparison movie 7 (Twelve Monkeys (1995)), common reviewers 281
+compare movie is Twelve Monkeys (1995)
+no. of common reviewers 281
+target avg    compare avg  target std   compare std    r
+  3.829181      3.761566     0.936942      0.994673    0.159248
+
+Movie 1, comparison movie 8 (Babe (1995)), common reviewers 154
+compare movie is Babe (1995)
+no. of common reviewers 154
+target avg    compare avg  target std   compare std    r
+  3.980519      4.000000     0.939133      0.956573    0.247367
+
+Movie 1, comparison movie 9 (Dead Man Walking (1995)), common reviewers 201
+compare movie is Dead Man Walking (1995)
+no. of common reviewers 201
+target avg    compare avg  target std   compare std    r
+  3.820896      3.796020     0.931537      1.110488    0.090176
+
+Movie 1, comparison movie 10 (Richard III (1995)), common reviewers 61
+compare movie is Richard III (1995)
+no. of common reviewers 61
+target avg    compare avg  target std   compare std    r
+  3.770492      3.721311     1.039125      1.034910    0.187502
+
+Movie 1, comparison movie 1673 (Mirage (1995)), common reviewers 1
+Movie 1, comparison movie 1674 (Mamma Roma (1962)), common reviewers 0
+Movie 1, comparison movie 1675 (Sunchaser, The (1996)), common reviewers 0
+Movie 1, comparison movie 1676 (War at Home, The (1996)), common reviewers 0
+Movie 1, comparison movie 1677 (Sweet Nothing (1995)), common reviewers 1
+Movie 1, comparison movie 1678 (Mat' i syn (1997)), common reviewers 0
+Movie 1, comparison movie 1679 (B. Monkey (1998)), common reviewers 0
+Movie 1, comparison movie 1680 (Sliding Doors (1998)), common reviewers 0
+Movie 1, comparison movie 1681 (You So Crazy (1994)), common reviewers 1
+Movie 1, comparison movie 1682 (Scream of Stone (Schrei aus Stein) (1991)), common reviewers 1
+
+
+          R     No.     Reviews        Name
+ 1.   1.000000    1 ( 452 reviews) Toy Story (1995)
+ 2.   0.761165  786 (  11 reviews) Perez Family, The (1995)
+ 3.   0.753673  426 (  28 reviews) Transformers: The Movie, The (1986)
+ 4.   0.736826  539 (  23 reviews) Mouse Hunt (1997)
+ 5.   0.712301  115 (  13 reviews) Haunted World of Edward D. Wood Jr., The
+ 6.   0.681280  557 (  11 reviews) Farinelli: il castrato (1994)
+ 7.   0.679864  828 (  10 reviews) Alaska (1996)
+ 8.   0.672918  921 (  26 reviews) Farewell My Concubine (1993)
+ 9.   0.670896 1277 (  14 reviews) Set It Off (1996)
+10.   0.668410  645 (  16 reviews) Paris Is Burning (1990)
+11.   0.663215  138 (  16 reviews) D3: The Mighty Ducks (1996)
+12.   0.654585  350 (  11 reviews) Fallen (1998)
+13.   0.651857  330 (  18 reviews) 187 (1997)
+14.   0.641535  923 (  27 reviews) Raise the Red Lantern (1991)
+15.   0.623460  819 (  37 reviews) Eddie (1996)
+16.   0.620767 1051 (  32 reviews) Associate, The (1996)
+17.   0.620174 1037 (  16 reviews) Grease 2 (1982)
+18.   0.619995 1199 (  19 reviews) Cemetery Man (Dellamorte Dellamore) (199
+19.   0.618509  613 (  19 reviews) My Man Godfrey (1936)
+20.   0.612372  905 (  10 reviews) Great Expectations (1998)
+
+Movie number: Movie: 1682  Scream of Stone (Schrei aus Stein) (1991)
+
+Common reviewers for movie 1:
+916 
+
+Movie 1682, comparison movie 1 (Toy Story (1995)), common reviewers 1
+Common reviewers for movie 2:
+916 
+
+Movie 1682, comparison movie 2 (GoldenEye (1995)), common reviewers 1
+Movie 1682, comparison movie 3 (Four Rooms (1995)), common reviewers 1
+Movie 1682, comparison movie 4 (Get Shorty (1995)), common reviewers 1
+Movie 1682, comparison movie 5 (Copycat (1995)), common reviewers 1
+Movie 1682, comparison movie 6 (Shanghai Triad (Yao a yao yao dao waipo qiao) (1995)), common reviewers 0
+Movie 1682, comparison movie 7 (Twelve Monkeys (1995)), common reviewers 1
+Movie 1682, comparison movie 8 (Babe (1995)), common reviewers 0
+Movie 1682, comparison movie 9 (Dead Man Walking (1995)), common reviewers 1
+Movie 1682, comparison movie 10 (Richard III (1995)), common reviewers 0
+Movie 1682, comparison movie 1673 (Mirage (1995)), common reviewers 0
+Movie 1682, comparison movie 1674 (Mamma Roma (1962)), common reviewers 0
+Movie 1682, comparison movie 1675 (Sunchaser, The (1996)), common reviewers 0
+Movie 1682, comparison movie 1676 (War at Home, The (1996)), common reviewers 0
+Movie 1682, comparison movie 1677 (Sweet Nothing (1995)), common reviewers 0
+Movie 1682, comparison movie 1678 (Mat' i syn (1997)), common reviewers 0
+Movie 1682, comparison movie 1679 (B. Monkey (1998)), common reviewers 0
+Movie 1682, comparison movie 1680 (Sliding Doors (1998)), common reviewers 0
+Movie 1682, comparison movie 1681 (You So Crazy (1994)), common reviewers 0
+Movie 1682, comparison movie 1682 (Scream of Stone (Schrei aus Stein) (1991)), common reviewers 1
+
+
+Insufficient comparison movies
+
+Movie number: q

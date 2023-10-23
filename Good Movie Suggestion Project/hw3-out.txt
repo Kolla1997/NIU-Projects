@@ -1,0 +1,54 @@
+Á -> A
+è -> e
+é -> e
+ö -> o
+
+543|Misérables, Les (1995)
+é (0xe9) in line 543 char 8 converted to e
+543|Miserables, Les (1995)
+
+1005|Double vie de Véronique, La (Double Life of Veronique, The) (1991)
+é (0xe9) in line 1005 char 21 converted to e
+1005|Double vie de Veronique, La (Double Life of Veronique, The) (1991)
+
+1104|C'est arrivé près de chez vous (1992)
+é (0xe9) in line 1104 char 17 converted to e
+è (0xe8) in line 1104 char 21 converted to e
+1104|C'est arrive pres de chez vous (1992)
+
+1233|Nénette et Boni (1996)
+é (0xe9) in line 1233 char 7 converted to e
+1233|Nenette et Boni (1996)
+
+1252|Contempt (Mépris, Le) (1963)
+é (0xe9) in line 1252 char 17 converted to e
+1252|Contempt (Mepris, Le) (1963)
+
+1322|Metisse (Café au Lait) (1993)
+é (0xe9) in line 1322 char 18 converted to e
+1322|Metisse (Cafe au Lait) (1993)
+
+1366|JLG/JLG - autoportrait de décembre (1994)
+é (0xe9) in line 1366 char 33 converted to e
+1366|JLG/JLG - autoportrait de decembre (1994)
+
+1623|Cérémonie, La (1995)
+é (0xe9) in line 1623 char 7 converted to e
+é (0xe9) in line 1623 char 9 converted to e
+1623|Ceremonie, La (1995)
+
+1633|Á köldum klaka (Cold Fever) (1994)
+Á (0xc1) in line 1633 char 6 converted to A
+ö (0xf6) in line 1633 char 9 converted to o
+1633|A koldum klaka (Cold Fever) (1994)
+
+No. of high order chars:       12
+Lines with high order chars:    9
+Total record count:          1682
+
+*** First row has 943 columns
+*** No. of rows (movies) in matrix = 1682
+*** All rows have the same number of columns as the first row
+
+Name file and matrix both have 1682 records
+
